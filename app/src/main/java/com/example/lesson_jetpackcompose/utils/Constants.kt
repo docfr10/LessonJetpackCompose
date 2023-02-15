@@ -31,11 +31,6 @@ object Constants {
             route = "radiobuttonScreen"
         ),
         BottomNavItemModel(
-            label = "Snackbar",
-            icon = Icons.Filled.ShoppingCart,
-            route = "snackbarScreen"
-        ),
-        BottomNavItemModel(
             label = "Slider",
             icon = Icons.Filled.Search,
             route = "sliderScreen"
