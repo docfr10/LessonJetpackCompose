@@ -48,7 +48,7 @@ fun HomeScreen(navController: NavHostController) {
         }) { Text(text = "К экрану с alertDialog") }
         Button(onClick = {
             navController.popBackStack()
-            navController.navigate("lazyColumnScreen")
-        }) { Text(text = "К экрану с LazyColumnScreen") }
+            navController.navigate("lazyScreen")
+        }) { Text(text = "К экрану с lazyScreen") }
     }
 }

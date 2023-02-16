@@ -86,6 +86,6 @@ fun AppScreen(navController: NavHostController, padding: PaddingValues) {
             // Экран с AlertDialog
             composable(route = "alertDialogScreen") { AlertDialogScreen() }
             // Экран с LazyColumn - TODO
-            composable(route = "lazyColumnScreen") { LazyColumnScreen() }
+            composable(route = "lazyScreen") { LazyScreen() }
         })
 }

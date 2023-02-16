@@ -46,9 +46,9 @@ object Constants {
             route = "alertDialogScreen"
         ),
         BottomNavItemModel(
-            label = "LazyColumn",
+            label = "lazyScreen",
             icon = Icons.Filled.List,
-            route = "lazyColumnScreen"
+            route = "lazyScreen"
         ),
     )
 }
