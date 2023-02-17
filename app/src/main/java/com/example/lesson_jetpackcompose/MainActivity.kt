@@ -124,7 +124,7 @@ fun AppScreen(
             }
             // Экран с LazyColumn
             composable(route = "lazyScreen") {
-                LazyScreen()
+                LazyScreen(navController = navController)
                 isShowBottomBar.value = true
             }
         })
