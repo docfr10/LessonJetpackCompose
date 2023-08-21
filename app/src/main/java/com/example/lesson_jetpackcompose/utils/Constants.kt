@@ -50,5 +50,10 @@ object Constants {
             icon = Icons.Filled.List,
             route = "lazyScreen"
         ),
+        BottomNavItemModel(
+            label = "containersScreen",
+            icon = Icons.Filled.MoreVert,
+            route = "containersScreen"
+        )
     )
 }

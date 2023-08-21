@@ -127,5 +127,10 @@ fun AppScreen(
                 LazyScreen(navController = navController)
                 isShowBottomBar.value = true
             }
+            // Экран с разными контейнерами
+            composable(route = "containersScreen") {
+                ContainersScreen()
+                isShowBottomBar.value = true
+            }
         })
 }

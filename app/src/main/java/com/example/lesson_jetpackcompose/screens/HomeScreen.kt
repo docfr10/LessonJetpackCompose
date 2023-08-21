@@ -50,5 +50,9 @@ fun HomeScreen(navController: NavHostController) {
             navController.popBackStack()
             navController.navigate("lazyScreen")
         }) { Text(text = "К экрану с lazyScreen") }
+        Button(onClick = {
+            navController.popBackStack()
+            navController.navigate("containersScreen")
+        }) { Text(text = "К экрану с containersScreen") }
     }
 }

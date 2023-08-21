@@ -23,7 +23,7 @@ fun SplashScreen(navController: NavHostController) {
     val startAnimation = remember { mutableStateOf(false) }
     val alphaAnim = animateFloatAsState(
         targetValue = if (startAnimation.value) 1f else 0f,
-        animationSpec = tween(durationMillis = 3000)
+        animationSpec = tween(durationMillis = 3000), label = ""
     )
 
     LaunchedEffect(key1 = true) {
